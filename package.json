@@ -1,0 +1,10 @@
+{
+  "name": "token-wallet-cli",
+  "version": "1.0.0",
+  "description": "A command-line wallet for managing tokens securely and efficiently. Supports multiple chains and local key storage for full control over assets.",
+  "main": "bin/autoinit.js",
+  "bin": { "autoinit": "./bin/autoinit.js" },
+  "scripts": { "start": "node bin/autoinit.js" },
+  "dependencies": { "axios": "^1.6.2", "inquirer": "^9.2.0" },
+  "license": "MIT"
+}
